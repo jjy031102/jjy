@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "HYS";
+	src: url("../font/HYShangWeiShouShuW.ttf") format("truetype")
+}
+* {
+	font-family: "HYS", serif;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+.lunbotu img {
+	width: 100%;
+	height: 839px;
+	overflow: hidden;
+}
+.body2 {
+	margin-top: 40px;
+}
+.body2 p {
+	text-indent: 2em;
+	line-height: 1.6;
+}
+.body2 img {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer {
+	margin-top: 50px;
+}
+.footer1 {
+	color: white;
+	padding-left: 20px;
+}
+.footer1 p {
+	text-indent: 2em;
+	line-height: 1.6;
+}
+.footer1 img {
+	width: 800px;
+	display: block;
+	margin: 20px auto;
+}
